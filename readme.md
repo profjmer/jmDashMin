@@ -58,9 +58,9 @@ Ici le graphe est du type 'fill'
 
 ### ​fur {"type":"DHT22","T":-5.0,"HR":43,"ts":""}
 
-![](./img/jmDash2jauges.png)
+![](./img/jmdash2jauges.png)
 
-![](./img/jmDash2lignes.png)
+![](./img/jmdash2lignes.png)
 
 #### ​
 
@@ -99,7 +99,7 @@ C'est la page permettant de lancer des commandes vers l'objet.
 
 Elle affiche également les dernières valeurs des capteurs
 
-![](./img/jmDasILC.png)
+![](./img/jmDashILC.png)
 
 ###
 
