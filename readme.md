@@ -40,7 +40,7 @@ Voici des exemples de jauges et de graphes.
 
 Exemple jauge
 
-ts est un timestamp, il peut être absent comme dans le cas présent. Alors c'est le fureteur qui ajoute le timestamp. ![](./imgjmDash2.png)
+ts est un timestamp, il peut être absent comme dans le cas présent. Alors c'est le fureteur qui ajoute le timestamp. ![](./img/jmDash2.png)
 
 #### ​
 
@@ -58,9 +58,9 @@ Ici le graphe est du type 'fill'
 
 ### ​fur {"type":"DHT22","T":-5.0,"HR":43,"ts":""}
 
-![](./imgjmDash2jauges.png)
+![](./img/jmDash2jauges.png)
 
-![](./imgjmDash2lignes.png)
+![](./img/jmDash2lignes.png)
 
 #### ​
 
@@ -74,21 +74,21 @@ Tous les clients connectés à la page BME280 voient les valeurs poussées dans 
 
 Présentement tous les clients connectés peuvent pousser des valeurs dans les jauges.
 
-![](RackMultipart20220811-1-degk9y_html_5415341114a35541.png)
+![](./img/jmDash3jauges.png)
 
 #### ​Graphe
 
 Tous les clients connectés à la page BME280 GRAPHE voient les valeurs poussées dans le graphe par les requêtes UDP. Présentement tous les clients connectés peuvent pousser des valeurs dans le graphe. Le timestamp est fourni par le fureteur.
 
-![](RackMultipart20220811-1-degk9y_html_b95142b1a342ca60.png)
+![](./img/jmDash3lignes.png)
 
 ## ​Exemple de valeurs en tableau
 
 ### ​fur {"type":"DS1820","T":[-25.0,12.4,20, 33.3],"ts":""}
 
-![](RackMultipart20220811-1-degk9y_html_c08490ab702c8ae7.png)
+![](./img/jmDash4jauges.png)
 
-![](RackMultipart20220811-1-degk9y_html_43c97faaf3bb505b.png)
+![](./img/jmDash4lignes.png)
 
 ###
 
@@ -99,7 +99,7 @@ C'est la page permettant de lancer des commandes vers l'objet.
 
 Elle affiche également les dernières valeurs des capteurs
 
-![](RackMultipart20220811-1-degk9y_html_46f497786acdb6d8.png)
+![](./img/jmDasILC.png)
 
 ###
 
@@ -108,4 +108,4 @@ Elle affiche également les dernières valeurs des capteurs
 
 C'est la page qui scrute les réseaux accessibles et qui permet de se connecter à un de ces réseaux.
 
-![](RackMultipart20220811-1-degk9y_html_d6a08c88df3649c2.png)
+![](./img/jmDashReseaux.png)
